@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;800&display=swap");
+body {
+  font-family: 'Pattaya', sans-serif;
+  background-image: url(../5211712-01.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 62vmax;
+}
+
+.custom-nav .navbar-brand img {
+  width: 70px;
+  height: 50px;
+}
+
+.custom-nav .navbar-brand span {
+  color: #8fb6ff;
+  font-weight: 200px;
+  font-size: 1.1rem;
+  margin-left: 0.4em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  font-weight: 100;
+  margin-left: 4rem;
+  color: #918ca8;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+  background-color: #8fb6ff;
+}
+
+.custom-section {
+  margin-top: 10em;
+}
+
+.custom-section h4 {
+  font-weight: 50;
+  font-size: 3rem;
+  color: #918ca8;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #003ba9;
+}
+
+.custom-section .btn-content {
+  background-color: #8fb6ff;
+}
+/*# sourceMappingURL=main.css.map */

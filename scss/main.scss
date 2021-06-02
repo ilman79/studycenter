@@ -1,0 +1,75 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;800&display=swap');
+
+// variabels
+$primaryColor: #8fb6ff;
+$secondaryColor: #d5d9e4;
+$textColor : #918ca8;
+
+// style
+body {
+            font-family: 'Pattaya', sans-serif;
+            background-image: url(../5211712-01.png);
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-size: 62vmax;
+            
+}
+
+// navbar
+
+.custom-nav {
+   .navbar-brand {
+      img {
+         width: 70px;
+         height: 50px;
+      }
+      span {
+         color: $primaryColor;
+         font-weight: 200px;
+         font-size: 1.1rem;
+         margin-left: 0.4em;
+      }
+   }
+   #navbarNav {
+      .navbar-nav{
+         .nav-item {
+            .nav-link {
+               font-weight: 100;
+               margin-left: 4rem;
+               color: $textColor;
+               transition: 0.3s color ease;
+
+               &:hover {
+                  color: darken($primaryColor, 100%);
+               }
+            }
+            .sign-up-button {
+               background-color: $primaryColor;
+               
+            }
+         }
+      }
+   }
+}
+
+// costem section
+.custom-section {
+   margin-top: 10em;
+
+   h4 {
+      font-weight: 50;
+      font-size: 3rem;
+      color: $textColor;
+
+   }
+   h2 {
+      font-weight: 700;
+      font-size: 3rem;
+      color: darken($primaryColor, 45%);
+   }
+   
+   .btn-content {
+      background-color: $primaryColor;
+   }
+}
